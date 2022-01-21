@@ -1,0 +1,172 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
+}
+.img_logo{
+    width: 103px;
+    height: 29px;
+}
+.barra_topo{
+    width: 1366px;
+    height: 54px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #DBDBDB;
+}
+.icone{
+    width: 22px;
+    height: 22px;
+}
+.divisor_vertical{
+    background-color: red; /*#DBDBDB <- cor original*/
+    width: 1px;
+    height: 22px;
+    margin-left: 14.58px;
+    margin-right: 10px;
+}
+.icones_topo{
+    display: flex;
+    
+}
+.elementos_esquerda{
+    display: flex;
+}
+.pesquisa{
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 215px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #979797;
+}
+.stories{
+    Width: 614px;
+    Height: 118px;
+    margin-top: 88px;
+    margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.story{
+    margin-left: 23px;
+    /* display: grid; */
+    
+}
+.img_story{
+    background-image: url(./stories_background.jpg);
+    background-size: 66px;
+    background-position: auto;
+}
+.conteudo{
+    width: 614px;
+    height: 100wh;
+    margin-top: 24px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.post{
+    border: 3px solid blue;
+    margin-bottom: 60px;
+    width: 614px;
+    height: 749px;
+}
+.post img{
+    width: 612px;
+    height: 612px;
+    
+}
+.likes{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 17px;
+    width: auto;
+    height: auto;
+    
+}
+.likes img{
+    margin: 42px, 500px, 14px, 17px;
+    
+}
+.barra_topo_conteudo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 17px;
+    background-color: #15dbe9;
+    width: auto;
+    height: 60px;
+}
+.barra_topo_conteudo a{
+    width: 109px;
+    height: 21px;
+}
+.icone_topo_conteudo{
+    padding-left: 408px;
+    padding-right: 17px;
+    height: 16px;
+    width: 16px;
+}
+.barra_topo_conteudo img{
+    width: 32px;
+    height: 32px;
+}
+.barra_fundo_conteudo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 17px;
+    background-color: #15dbe9;
+}
+.icone_fundo_conteudo{
+    padding-left: 476px;
+    padding-right: 17px;
+    height: 22px;
+    width: 22px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: sticky; /*eu troquei por stciky, antes era fixed*/
+    width: 26%;
+    top: 54px;
+    right: 0;
+    margin: auto;
+    height: 100vh;
+    background-color: purple;
+}
+.sidebar_topo img{
+    width: 56px;
+    height: 56px;
+}
+.sidebar_topo a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar_topo_txt{
+    margin: auto;
+    
+}
+.likes img{
+    width: 20px;
+    height: 20px;
+}
