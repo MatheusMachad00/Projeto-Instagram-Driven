@@ -78,6 +78,7 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
+    overflow: hidden;
     
 }
 .story{
@@ -101,6 +102,17 @@ body{
     width: 66px;
     background-size: cover;
     margin-bottom: 5px;
+}
+.stories ion-icon{
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    color: #fff;
+    filter:drop-shadow(0 5px 5px rgb(85, 85, 85));    
+    /* position: absolute;
+    z-index: 1;
+    right: 8px;
+    top: 46px; */
 }
 .conteudo{
     width: 614px;
@@ -168,8 +180,7 @@ body{
     background-color: #15dbe9;
 }
 .icone_fundo_conteudo{
-    padding-left: 476px;
-    
+    padding-left: 476px;    
     height: 22px;
     width: 22px;
 }
@@ -205,7 +216,7 @@ body{
 }
 .sidebar_topo_txt{
     margin: 15px;
-    margin-top: ;
+    
 }
 .sidebar_body div:first-child{ /*ve se da certo*/
     display: flex;
