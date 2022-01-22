@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #fafafa;
     height: 100vh;
     width: 100vw;
 }
@@ -9,16 +9,24 @@ body{
     height: 29px;
 }
 .barra_topo{
-    width: 1366px;
     height: 54px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     border-bottom: 1px solid #DBDBDB;
+    z-index: 2;
+}
+.barra_topo div{
+    display: flex;
+    align-items: center;
+    /* max-width: 895px;
+    width: 100%; */
+    margin-left: 20px;
+    margin-right: 21.5px;
 }
 .icone{
     width: 22px;
@@ -33,10 +41,19 @@ body{
 }
 .icones_topo{
     display: flex;
-    
+    gap: 20px;
 }
 .elementos_esquerda{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.elementos_direita{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
 }
 .pesquisa{
     background: #FAFAFA;
@@ -69,7 +86,7 @@ body{
     gap: 15px;
 }
 .mc{
-    
+    padding-left: 18px;
 }
 .story a{
     font-size: 12px;
@@ -99,7 +116,7 @@ body{
     border: 3px solid blue;
     margin-bottom: 60px;
     width: 614px;
-    height: 749px;
+
 }
 .post img{
     width: 612px;
@@ -152,20 +169,30 @@ body{
 }
 .icone_fundo_conteudo{
     padding-left: 476px;
-    padding-right: 17px;
+    
     height: 22px;
     width: 22px;
 }
 .sidebar{
     display: flex;
     flex-direction: column;
-    position: sticky; /*eu troquei por stciky, antes era fixed*/
+    position: fixed;
     width: 26%;
     top: 54px;
     right: 0;
     margin: auto;
     height: 100vh;
     background-color: purple;
+}
+.sidebar_topo{
+    display: flex;
+    align-items: center;
+    margin: 57px 0 24px 29px ;
+}
+.sidebar_topo a{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 6px
 }
 .sidebar_topo img{
     width: 56px;
@@ -177,16 +204,60 @@ body{
     justify-content: center;
 }
 .sidebar_topo_txt{
-    margin: auto;
-    
+    margin: 15px;
+    margin-top: ;
+}
+.sidebar_body div:first-child{ /*ve se da certo*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.sidebar_user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 30px;
+}
+.sidebar_user img{
+    height: 32px;
+    width: 32px;
+}
+.sidebar_user div{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 11px;
+}
+.sidebar_user p{
+    color: #139EF2;
+    font-weight: 500;
+}
+.sidebar_user a{
+    display: flex;
+}
+.cor{
+    font-size: 12px;
+    color: #8E8E8E;
 }
 .likes img{
     width: 20px;
     height: 20px;
+}
+.sidebar_txt1{
+    margin-top: 6px;
 }
 .sidebar_direita_baixo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+}
+.texto_final_sidebar{
+    font-size: 11px;
+    display: flex;
+    color: #C7C7C7;
+    margin-bottom: 16px;
+    margin-top: 33px;
 }
