@@ -57,6 +57,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     border: 2px solid #DBDBDB;
+    border-radius: 3px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -64,19 +65,32 @@ body{
 }
 .story{
     margin-left: 23px;
-    /* display: grid; */
+    margin: auto;
+    gap: 15px;
+}
+.mc{
     
 }
+.story a{
+    font-size: 12px;
+
+}
 .img_story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(./stories_background.jpg);
-    background-size: 66px;
-    background-position: auto;
+    height: 66px;
+    width: 66px;
+    background-size: cover;
+    margin-bottom: 5px;
 }
 .conteudo{
     width: 614px;
     height: 100wh;
     margin-top: 24px;
     border: 2px solid red;
+    border-radius: 3px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -169,4 +183,10 @@ body{
 .likes img{
     width: 20px;
     height: 20px;
+}
+.sidebar_direita_baixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
