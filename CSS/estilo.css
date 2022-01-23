@@ -3,6 +3,7 @@ body{
     background-color: #fafafa;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 .img_logo{
     width: 103px;
@@ -10,21 +11,26 @@ body{
 }
 .barra_topo{
     height: 54px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-bottom: 1px solid #DBDBDB;
-    z-index: 2;
+    margin-top: 16px;
+    margin-left: 215px;
 }
 .barra_topo div{
     display: flex;
     align-items: center;
     /* max-width: 895px;
     width: 100%; */
+    margin-left: 20px;
+    margin-right: 21.5px;
+    /* border: 1px solid red; */
+}
+.barra_topo input{
+    text-align: center;
+}
+.barra_superior > div {
+    display: flex;
+    align-items: center;
+    max-width: 895px;
+    width: 100%;
     margin-left: 20px;
     margin-right: 21.5px;
 }
@@ -42,13 +48,14 @@ body{
 .icones_topo{
     display: flex;
     gap: 20px;
+    padding-right: 215px;
 }
 .elementos_esquerda{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: auto;
+    
 }
 .elementos_direita{
     display: flex;
@@ -72,13 +79,13 @@ body{
     margin-top: 88px;
     margin-bottom: 24px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 215px;
     border: 2px solid #DBDBDB;
     border-radius: 3px;
     display: flex;
     align-items: center;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
 .story{
@@ -118,14 +125,15 @@ body{
     width: 614px;
     height: 100wh;
     margin-top: 24px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-left: 216px;
 }
 .post{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     margin-bottom: 60px;
     width: 614px;
 
@@ -136,14 +144,18 @@ body{
     
 }
 .likes{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-left: 17px;
+    margin-left: 17px;
     width: auto;
     height: auto;
     
+}
+.likes a{
+    font-weight: 300;
+    font-size: 14px
 }
 .likes img{
     margin: 42px, 500px, 14px, 17px;
@@ -153,8 +165,8 @@ body{
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-left: 17px;
-    background-color: #15dbe9;
+    margin-left: 17px;
+    /* background-color: #15dbe9; */
     width: auto;
     height: 60px;
 }
@@ -173,14 +185,16 @@ body{
     height: 32px;
 }
 .barra_fundo_conteudo{
+    margin-top: 12px;
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-left: 17px;
-    background-color: #15dbe9;
+    /* background-color: #15dbe9; */
+    margin-left: 17px
 }
 .icone_fundo_conteudo{
-    padding-left: 476px;    
+    padding-left: 450px;
+    padding-right: 17px;  
     height: 22px;
     width: 22px;
 }
@@ -193,7 +207,7 @@ body{
     right: 0;
     margin: auto;
     height: 100vh;
-    background-color: purple;
+    /* background-color: purple; */
 }
 .sidebar_topo{
     display: flex;
@@ -252,6 +266,9 @@ body{
     font-size: 12px;
     color: #8E8E8E;
 }
+.likes{
+    margin-top: 12px;
+}
 .likes img{
     width: 20px;
     height: 20px;
@@ -272,3 +289,15 @@ body{
     margin-bottom: 16px;
     margin-top: 33px;
 }
+.mc2{
+    margin-left: 30px;
+}
+
+/*.barra_topo div{
+    display: flex;
+    align-items: center;
+    /* max-width: 895px;
+    width: 100%; * /
+    margin-left: 20px;
+    margin-right: 21.5px;
+}*/
