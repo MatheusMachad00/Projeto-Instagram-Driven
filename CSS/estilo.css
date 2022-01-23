@@ -314,7 +314,6 @@ body{
 .mc2{
     margin-left: 30px;
 }
-
 /*esconder sidebar*/
 @media (max-width: 935px){
     .sidebar{
@@ -330,7 +329,7 @@ body{
         display: none;
     }
 
-    .barra_superior .icones_topo {
+    .barra_topo .icones_topo {
         display: none;
     }
 }
