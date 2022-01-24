@@ -1,9 +1,9 @@
 body{
+    background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #fafafa;
     margin: 0;
     width: 100%;
     min-width: 612;
@@ -17,16 +17,16 @@ body{
     margin-right: 214px;
 }
 .barra_topo{
-    
     height: 54px;
-    margin-top: 16px;
-    margin-left: 215px;
+    /* margin-top: 16px; */
+    /* margin-left: 215px; */ /*tirar ou não essa linha*/
     border-bottom: 1px solid #DBDBDB;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 2;
+    background-color: #fafafa;
 }
 .barra_topo div{
     display: flex;
@@ -94,19 +94,31 @@ body{
     justify-content: center;
     color: #979797;
 }
+.corpo{
+    display: flex;
+    justify-content: center;
+    margin: calc(34px + 54px) auto;
+    padding-right: 322px;
+}
+.corpo_central{
+    width: 614px;
+}
 .stories{
-    Width: 614px;
+    /* Width: 614px; */ /*removido essa linha*/
     Height: 118px;
-    margin-top: 88px;
-    margin-bottom: 24px;
-    margin-right: auto;
-    margin-left: 215px;
-    border: 2px solid #DBDBDB;
+    /* margin-top: 88px; */
+
+    /* margin-bottom: 24px; {
+    margin-right: auto;      removido esse bloco
+    margin-left: 215px;     }   */   
+
+    border: 1px solid #DBDBDB;
     border-radius: 3px;
     display: flex;
     align-items: center;
     text-align: center;
-    /* overflow: hidden; */
+    position: relative;
+    overflow: hidden;
 }
 .story{
     margin-left: 23px;
@@ -136,19 +148,19 @@ body{
     border-radius: 13px;
     color: #fff;
     filter:drop-shadow(0 5px 5px rgb(85, 85, 85));    
-    /* position: absolute;
+    position: absolute;
     z-index: 1;
     right: 8px;
-    top: 46px; */
+    top: 46px;
 }
 .conteudo{
-    width: 614px;
-    height: 100wh;
+    width: 100%;
+    /* height: 100wh; */
     margin-top: 24px;
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-left: 216px;
+    
 }
 .post{
     margin-bottom: 60px;
@@ -226,6 +238,7 @@ body{
     right: 0;
     margin-right: 216px;
     width: 285px;
+    background-color: #fafafa;
     /* background-color: purple; */
 }
 .sidebar_topo{
