@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    background-color:  #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+nav {
+    background-color:  #FFFFFF;
+    border-bottom: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 103px;
+    height: 29px;
+}
+
+nav ion-icon {
+    font-size: 24px;
+    margin: 10px;
+}
+
+/* Stories */
+.story img{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    padding: 17px 0;
+}
+
+.stories {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+    overflow: hidden;
+}
+
+.storyThumb {
+    background-image: url(../img/stories_background.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 66px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.story span {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* Posts */
