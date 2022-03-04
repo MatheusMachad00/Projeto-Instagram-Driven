@@ -19,7 +19,7 @@ body{
 .barra_topo{
     height: 54px;
     padding-top: 16px;
-    padding-left: 215px; /*tirar ou não essa linha*/
+    padding-left: 215px;
     border-bottom: 1px solid #DBDBDB;
     position: fixed;
     top: 0;
@@ -28,18 +28,15 @@ body{
     z-index: 2;
     background-color: #fafafa;
 }
-.mc1{
-    /* background-color: red; */
-}
+
 .barra_topo div{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* max-width: 895px;
-    width: 100%; */
+
     margin-left: 20px;
     margin-right: 21.5px;
-    /* border: 1px solid red; */
+
 }
 .barra_topo input{
     text-align: center;
@@ -64,7 +61,7 @@ body{
     height: 22px;
 }
 .divisor_vertical{
-    background-color: #DBDBDB; /*#DBDBDB <- cor original*/
+    background-color: #DBDBDB;
     width: 1px;
     height: 22px;
     margin-left: 14.58px;
@@ -108,14 +105,7 @@ body{
     width: 614px;
 }
 .stories{
-    /* Width: 614px; */ /*removido essa linha*/
     Height: 118px;
-    /* margin-top: 88px; */
-
-    /* margin-bottom: 24px; {
-    margin-right: auto;      removido esse bloco
-    margin-left: 215px;     }   */   
-
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     display: flex;
@@ -167,7 +157,6 @@ body{
 }
 .conteudo{
     width: 100%;
-    /* height: 100wh; */
     margin-top: 24px;
     display: flex;
     flex-direction: column;
@@ -187,7 +176,6 @@ body{
     
 }
 .likes{
-    /* background-color: yellow; */
     display: flex;
     align-items: center;
     gap: 15px;
@@ -210,7 +198,6 @@ body{
     align-items: center;
     gap: 15px;
     margin-left: 17px;
-    /* background-color: #15dbe9; */
     width: auto;
     height: 60px;
 }
@@ -233,7 +220,6 @@ body{
     display: flex;
     align-items: center;
     gap: 15px;
-    /* background-color: #15dbe9; */
     margin-left: 17px
 }
 .icone_fundo_conteudo{
@@ -252,7 +238,6 @@ body{
     margin-right: 216px;
     width: 285px;
     background-color: #fafafa;
-    /* background-color: purple; */
 }
 .sidebar_topo{
     display: flex;
@@ -277,7 +262,7 @@ body{
     margin: 15px;
     
 }
-.sidebar_body div:first-child{ /*ve se da certo*/
+.sidebar_body div:first-child{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -304,7 +289,6 @@ body{
     color: #139EF2;
     font-weight: 500;
     font-size: 12px;
-    /* margin-left: 87px; */
 }
 .sidebar_user a{
     display: flex;
@@ -372,5 +356,4 @@ body{
         overflow-x: hidden;
         /* padding-right: 500px; */
     }
-    overflow-x: hidden;
 }
