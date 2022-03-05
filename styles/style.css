@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     background-color:  #E5E5E5;
     font-family: 'Roboto', sans-serif;
 }
@@ -11,6 +14,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-desktop {
+    display: none;
 }
 
 nav img{
@@ -44,6 +51,7 @@ nav ion-icon {
     align-items: center;
     border-bottom: 1px solid #DBDBDB;
     overflow: hidden;
+    background-color:  #E5E5E5;
 }
 
 .storyThumb {
@@ -63,4 +71,143 @@ nav ion-icon {
     font-size: 12px;
 }
 
+.stories__arrow {
+    display: none;
+}
+
 /* Posts */
+
+.posts {
+    margin-bottom: 60px;
+}
+
+.posts img {
+    width: 100%;
+}
+
+.post{
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 60px;
+}
+
+.post__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.post__title ion-icon {
+    margin-right: 10px;
+
+}
+
+.post__title-users {
+    display: flex;
+    align-items: center;
+}
+
+.post__title img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.post__title span{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.post__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.post__likes img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.post__likes p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.post__likes {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+/* Footer */
+
+footer {
+    font-size: 22px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Media Query */
+@media screen and (min-width: 614px) {
+    footer {
+        display: none;
+    }
+
+    .posts {
+        width: 614px;
+    }
+
+    .feed {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .stories {
+        margin: 24px auto;
+        width: 614px;
+        border: 1px solid #DBDBDB;
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        position: relative;
+    }
+
+    .stories__arrow {
+        display: block;
+        font-size: 26px;
+        color: #FFFFFF;
+        filter:drop-shadow(0 5px 5px rgb(85, 85, 85));
+        z-index: 1;
+        position: absolute;
+        right: 0;
+
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-desktop input{
+        width: 214px;
+        text-align: center;
+    }
+
+    .nav-desktop img {
+        border-left: 1px solid #DBDBDB;
+    }
+
+    .nav-desktop {
+    display: flex;
+    }
+}
